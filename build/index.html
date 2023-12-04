@@ -9,21 +9,35 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/output.css">
     <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>GlacialGlamour</title>
 </head>
 <body class="bg-backGroundCreme scroll-smooth">
     
      <main class="w-full flex flex-col items-center">
         <div class="w-full flex flex-col items-center relative bg-backGroundWhite md:fixed top-0 z-10">
-            <header class="w-full max-w-7xl flex flex-col md:flex-row md:justify-between justify-center items-center py-2 px-2 md:py-4">
+            <header class="header w-full max-w-7xl flex flex-col md:flex-row md:justify-between justify-center items-center py-2 px-2 md:py-4">
                   <h2 class="font-medium md:text-xl tracking-widest">GlacialGlamour</h2>
                   
-                  <div class="btn-Mobile flex md:hidden items-center cursor-pointer">
-                      <i class="ri-menu-line text-2xl"></i>
-                  </div>                  
-   
-                  <nav class="hidden md:flex gap-3 py-2 px-1 text-grayMenu">
-                       <a class="link font-medium hover:text-strongRed duration-200" href="#">Home</a>  
+            
+                  <button class="btn-Mobile flex md:hidden items-center cursor-pointer">
+                       <i class="ri-menu-line text-2xl"></i>
+                  </button>                  
+
+                  <div class="menu-Mobile hidden absolute top-16 w-full bg-strongRed">
+                     <div class="flex items-center flex-col text-white">
+                        <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Home</a>  
+                        <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Coleções</a>  
+                        <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Estilos</a>  
+                        <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Novidades</a>  
+                        <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Sobre nós</a>  
+                        <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Blog</a>  
+                        <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Contato</a>         
+                    </div>
+                  </div>        
+                           
+                  <nav class="hidden md:flex gap-3 text-grayMenu">
+                       <a class="link font-medium  hover:text-strongRed duration-200" href="#">Home</a>  
                        <a class="link font-medium hover:text-strongRed duration-200" href="#">Coleções</a>  
                        <a class="link font-medium hover:text-strongRed duration-200" href="#">Estilos</a>  
                        <a class="link font-medium hover:text-strongRed duration-200" href="#">Novidades</a>  
@@ -31,16 +45,10 @@
                        <a class="link text-strongRed hover:text-grayMenu font-medium duration-200" href="#">Blog</a>  
                        <a class="link font-medium hover:text-strongRed duration-200" href="#">Contato</a>  
                   </nav>
+
+                  
             </header>   
-            <div class="menu-Mobile z-10 absolute top-16 md:hidden w-full bg-strongRed flex items-center flex-col text-white">
-                <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Home</a>  
-                <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Coleções</a>  
-                <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Estilos</a>  
-                <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Novidades</a>  
-                <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Sobre nós</a>  
-                <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Blog</a>  
-                <a class="w-full py-2 text-center text-sm border-b-2 border-orangeOutline hover:bg-menuHover duration-200" href="#">Contato</a>       
-            </div>        
+          
         </div>
               
         <div class="w-full flex flex-col items-center justify-center mt-14 md:mt-24 bg-backGroundCreme pb-10 md:py-8">

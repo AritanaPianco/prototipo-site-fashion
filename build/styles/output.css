@@ -720,7 +720,7 @@ video {
 }
 
 .animate-moverHorizontal {
-  animation: moverHorizontal 1s ease-in-out infinite alternate;
+  animation: moverHorizontal .8s ease-in-out infinite alternate;
 }
 
 .cursor-pointer {
@@ -1367,4 +1367,8 @@ video {
     gap: 3rem;
   }
 }
+
+
+
+
 

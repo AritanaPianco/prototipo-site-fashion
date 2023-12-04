@@ -26,8 +26,9 @@ module.exports = {
            },  
        },
        animation: {
-           'moverHorizontal': 'moverHorizontal 1s ease-in-out infinite alternate'   
+           'moverHorizontal': 'moverHorizontal .8s ease-in-out infinite alternate'   
        },
+    
     }
   },
   plugins: [],
